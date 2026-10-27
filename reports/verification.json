@@ -1,0 +1,19 @@
+{
+  "project": "MCP Tool Integration",
+  "status": "passed",
+  "transport": "stdio",
+  "checked_at_utc": "2026-10-27T05:03:30.320696+00:00",
+  "checks_passed": 10,
+  "checks": [
+    "MCP initialize handshake and server capabilities",
+    "resource discovery and file URI template",
+    "workspace resource read and SQLite schema resource",
+    "safe SELECT query execution",
+    "destructive SQL rejected with JSON-RPC -32602",
+    "Pydantic validation rejected malformed arguments (-32602)",
+    "path traversal rejected",
+    "malicious resource URI rejected",
+    "safe file creation and explicit overwrite confirmation",
+    "prompt discovery and rendering"
+  ]
+}
